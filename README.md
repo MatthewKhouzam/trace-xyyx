@@ -5,6 +5,8 @@ Steps to build it it.
 
 `mkdir build`
 
+`export PICO_SDK_FETCH_FROM_GIT=true` or `export PICO_SDK_PATH = <path>`
+
 `cmake ..`
 
 `make -j 8`

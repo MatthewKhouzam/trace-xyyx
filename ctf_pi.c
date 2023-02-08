@@ -67,6 +67,7 @@ void core1_entry() {
 
 void init_trace(char *folder) {
   stdio_init_all();
+  stdio_usb_init();
   queue_entry_t entry;
   queue_init(&trace_queue, sizeof(queue_entry_t), 2);
   strcpy(entry.name, "metadata");

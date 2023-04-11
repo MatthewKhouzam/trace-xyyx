@@ -1,7 +1,8 @@
 # trace-xyyx
+
 Simple C Tracing example, for x86 and raspberry pi pico
 
-Steps to build it it. 
+Steps to build it.
 
 `export PICO_SDK_FETCH_FROM_GIT=true` or `export PICO_SDK_PATH = <path>`
 
